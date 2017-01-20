@@ -15,7 +15,7 @@ const pg = new PG.Client({
 });
 
 pg.connect((err) => {
-
+	console.log(err.stack);
 });
 
 
